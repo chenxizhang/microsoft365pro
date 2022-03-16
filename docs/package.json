@@ -17,21 +17,21 @@
   },
   "marp": {
     "author": "陈希章",
-    "description": "",
+    "description": "Microsoft 365 高手指南",
     "lang": "zh-CN",
     "theme": "default",
-    "keywords": "",
-    "url": ""
+    "keywords": "Microsoft 365,Excel,Word,PowerPoint",
+    "url": "https://365pro.xizhang.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenxizhang/inside-microsoft-identity-platform.git"
+    "url": "git+https://github.com/chenxizhang/microsoft365pro.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chenxizhang/inside-microsoft-identity-platform/issues"
+    "url": "https://github.com/chenxizhang/microsoft365pro/issues"
   },
-  "homepage": "https://github.com/chenxizhang/inside-microsoft-identity-platform#readme"
+  "homepage": "https://github.com/chenxizhang/microsoft365pro#readme"
 }
