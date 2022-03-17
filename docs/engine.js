@@ -1,18 +1,19 @@
 //这一段是用来插入google analytics的信息的，注意修改G-开头的编号
 
 const script = `
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9SFKP3FJEJ"></script>
+<link href="docs.css" rel="stylesheet" type="text/css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D1R5D1QM02"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-9SFKP3FJEJ');
+  gtag('config', 'G-D1R5D1QM02');
 </script>
 `
 
 module.exports = ({ marp }) => marp.use((md) => {
     const { normalizeLink } = md
-    
+
     //这里将md的超链接转换为html
     md.normalizeLink = (...args) => {
         const originalResult = normalizeLink(...args)
