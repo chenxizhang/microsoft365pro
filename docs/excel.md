@@ -50,6 +50,12 @@ header:
 ![](images/datatype.png)
 ![bg fit right](images/stockdatatype.png)
 
+### 自定义数据类型
+
+需要 Power BI 支持
+
+
+
 ## 有意思的数组函数
 <!-- _footer: '' -->
 <!-- 所有函数列表 https://support.microsoft.com/zh-cn/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188 -->
