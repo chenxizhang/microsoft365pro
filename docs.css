@@ -1,3 +1,11 @@
+/* @theme xizhang */
+
+@import 'default';
+
 section footer{
     margin-left: 50px !important;
+}
+
+section figure {
+    margin: 10px !important;
 }
