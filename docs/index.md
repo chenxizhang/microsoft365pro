@@ -6,7 +6,7 @@ paginate: true
 title: Microsoft 365 高手是怎样炼成的
 ---
 
-# Microsoft 365 <br /> 高手是怎样炼成的
+##  Microsoft 365 <br /> 高手是怎样炼成的
 > 陈 希章 https://365pro.xizhang.com
 ![bg fit left](images/microsoft-365.png)
 
