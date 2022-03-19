@@ -8,7 +8,7 @@ title: Microsoft 365 高手是怎样炼成的
 
 ##  Microsoft 365 <br /> 高手是怎样炼成的
 > 陈 希章 https://365pro.xizhang.com
-![bg fit left](images/microsoft-365.png)
+<!-- ![bg fit left](images/microsoft-365.png) -->
 
 ##  你是不是有这样的困惑
 <!-- footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com -->
