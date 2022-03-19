@@ -1,6 +1,7 @@
 ---
 marp: true
 headingDivider: 3
+theme: xizhang
 paginate: true
 title: Microsoft 365 高手是怎样炼成的
 ---
