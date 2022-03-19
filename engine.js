@@ -41,7 +41,7 @@ module.exports = ({ marp }) => marp.use((md) => {
         const { meta } = tokens[i]
 
         // If it is the first slide, prepend <script> tag before the rendered tag.
-        if (meta && meta.marpitSlide === 0) return script + rendered
+        if (meta && meta.marpitSlide === 0) return rendered + script
 
         return rendered
     }
