@@ -134,7 +134,15 @@
 <span class="hljs-built_in">Connect-MgGraph</span> <span class="hljs-literal">-Scopes</span> <span class="hljs-string">&quot;Files.ReadWrite&quot;</span>
 <span class="hljs-comment"># 资源基地址</span>
 <span class="hljs-variable">$baseUrl</span> = <span class="hljs-string">&quot;https://graph.microsoft.com/v1.0/me/drive/root:/pmt.xlsx:/workbook&quot;</span>
-<span class="hljs-comment"># 修改贷款金额（这里用非持久会话）</span>
+
+<span class="hljs-comment"># 创建会话(非持久)</span>
+<span class="hljs-variable">$session</span> = <span class="hljs-built_in">Invoke-MgGraphRequest</span> `
+    <span class="hljs-literal">-Method</span> POST `
+    <span class="hljs-literal">-Uri</span> <span class="hljs-string">&quot;<span class="hljs-variable">$</span>(<span class="hljs-variable">$baseUrl</span>)/createSession&quot;</span> `
+    <span class="hljs-literal">-ContentType</span> <span class="hljs-string">&quot;application/json&quot;</span> `
+    <span class="hljs-literal">-Body</span> <span class="hljs-string">&quot;{persistChanges:false}&quot;</span>
+
+<span class="hljs-comment"># 修改贷款金额</span>
 <span class="hljs-built_in">Invoke-MgGraphRequest</span> <span class="hljs-literal">-Method</span> PATCH `
     <span class="hljs-literal">-Uri</span> <span class="hljs-string">&quot;<span class="hljs-variable">$</span>(<span class="hljs-variable">$baseUrl</span>)/worksheets/calculate/range(address=&#x27;c7&#x27;)&quot;</span> `
     <span class="hljs-literal">-ContentType</span> <span class="hljs-string">&quot;application/json&quot;</span> `

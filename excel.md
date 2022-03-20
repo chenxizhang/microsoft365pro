@@ -122,7 +122,15 @@ $resp.ParsedHtml.images | Where-Object {$_.alt -like "Office 365*"} | Select-Obj
 Connect-MgGraph -Scopes "Files.ReadWrite"
 # 资源基地址
 $baseUrl = "https://graph.microsoft.com/v1.0/me/drive/root:/pmt.xlsx:/workbook"
-# 修改贷款金额（这里用非持久会话）
+
+# 创建会话(非持久)
+$session = Invoke-MgGraphRequest `
+    -Method POST `
+    -Uri "$($baseUrl)/createSession" `
+    -ContentType "application/json" `
+    -Body "{persistChanges:false}"
+
+# 修改贷款金额
 Invoke-MgGraphRequest -Method PATCH `
     -Uri "$($baseUrl)/worksheets/calculate/range(address='c7')" `
     -ContentType "application/json" `
