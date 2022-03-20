@@ -10,6 +10,7 @@ header:
 
 # Excel 居然可以这么玩
 > 陈 希章 https://365pro.xizhang.com
+
 ![bg fit left](images/excel.png)
 
 ## 智能数据分析
@@ -44,20 +45,20 @@ header:
 
 ### 数据类型
 
-1. 股票数据类型 [范例]
-1. 自定义数据类型
+1. 股票数据类型 [默认范例]
+1. 自定义数据类型 [由PowerBI支持]
 
 ![](images/datatype.png)
 ![bg fit right](images/stockdatatype.png)
 
 ### 自定义数据类型
-
+<!--定义推荐表格 https://docs.microsoft.com/zh-cn/power-bi/collaborate-share/service-create-excel-featured-tables -->
 需要 Power BI 支持
 
-
+![](images/customdatatype.png)
+![bg fit right](images/productinfo.png)
 
 ## 有意思的数组函数
-<!-- _footer: '' -->
 <!-- 所有函数列表 https://support.microsoft.com/zh-cn/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188 -->
 
 <!-- 
@@ -89,14 +90,18 @@ $resp.ParsedHtml.images | Where-Object {$_.alt -like "Office 365*"} | Select-Obj
 1. [XLOOKUP](https://support.microsoft.com/zh-cn/office/xlookup-%E5%87%BD%E6%95%B0-b7fd680e-6d10-43e6-84f9-88eae8bf5929) 查找
 1. [XMATCH](https://support.microsoft.com/zh-cn/office/xmatch-%E5%87%BD%E6%95%B0-d966da31-7a6b-4a13-a1c6-5a33ed6a0312) 匹配
 
-##  自动化脚本
+![bg fit right](images/letfunction.png)
 
-> 目前仅用于Excel网页版，后续支持Windows桌面版。基于Typescript进行编程。
+##  自动化脚本 (Javascript)
+
+> 目前仅用于Excel网页版.
 
 1. 录制脚本
 1. 编辑脚本
 1. 执行脚本
 1. 分享脚本
+
+![](images/automationmenu.png)
 ![bg fit right](images/automation.png)
 
 ##  Excel as a Service
@@ -110,3 +115,23 @@ $resp.ParsedHtml.images | Where-Object {$_.alt -like "Office 365*"} | Select-Obj
 
 ![bg fit right](images/excel%20as%20a%20service.png)
 
+## 利用PMT函数计算贷款数据
+
+```powershell
+# 登录并授权
+Connect-MgGraph -Scopes "Files.ReadWrite"
+# 资源基地址
+$baseUrl = "https://graph.microsoft.com/v1.0/me/drive/root:/pmt.xlsx:/workbook"
+# 修改贷款金额（这里用非持久会话）
+Invoke-MgGraphRequest -Method PATCH `
+    -Uri "$($baseUrl)/worksheets/calculate/range(address='c7')" `
+    -ContentType "application/json" `
+    -Body "{values:[[700000]]}" `
+    -Headers @{"workbook-session-id"=$session.id}
+# 获取最新的每月还款金额
+Invoke-MgGraphRequest -Method GET `
+    -Uri "$($baseUrl)/worksheets/calculate/range(address='e4')" `
+    -Headers @{"workbook-session-id"=$session.id}
+```
+
+![bg fit right](images/excelasservicePMT.png)
