@@ -54,3 +54,12 @@ title: Microsoft 365 高手是怎样炼成的
 ## Excel 居然可以这么玩
 https://365pro.xizhang.com/excel.html
 ![bg fit right:40%](images/excel.png)
+
+## PowerPoint 居然可以这么玩
+https://365pro.xizhang.com/powerpoint.html
+![bg fit right:40%](images/powerpoint.png)
+
+
+## Word 居然可以这么玩
+https://365pro.xizhang.com/word.html
+![bg fit right:40%](images/wordicon.png)

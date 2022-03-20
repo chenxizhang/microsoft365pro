@@ -4,7 +4,7 @@ theme: xizhang
 headingDivider: 3
 paginate: true
 title: PowerPoint 居然可以这么玩
-footer: Microsoft 365的高手是这么炼成的 https://365pro.xizhang.com/powerpoint.html
+footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com/powerpoint.html
 ---
 
 # PowerPoint 居然可以这么玩
