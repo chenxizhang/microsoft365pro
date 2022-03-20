@@ -4,7 +4,7 @@ headingDivider: 3
 theme: xizhang
 paginate: true
 title: Excel 居然可以这么玩
-footer: Microsoft 365的高手是这么炼成的 https://365pro.xizhang.com/excel.html
+footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com/excel.html
 header: 
 ---
 
