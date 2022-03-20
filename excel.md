@@ -118,6 +118,9 @@ $resp.ParsedHtml.images | Where-Object {$_.alt -like "Office 365*"} | Select-Obj
 ## 利用PMT函数计算贷款数据
 
 ```powershell
+# 安装PowerShell模块
+Install-Module Microsoft.Graph -Scope CurrentUser
+
 # 登录并授权
 Connect-MgGraph -Scopes "Files.ReadWrite"
 # 资源基地址
