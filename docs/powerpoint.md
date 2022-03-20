@@ -13,8 +13,8 @@ footer: Microsoft 365的高手是这么炼成的 https://365pro.xizhang.com/powe
 
 ## 自动保存
 
-<video id="video" controls="" preload="none" poster="" height="600">
-      <source id="mp4" src="https://365pro.xizhang.com/images/test.mp4" type="video/mp4">
+<video id="video" controls preload poster="images/msgraph.png" height="400">
+      <source id="mp4" src="images/test.mp4" type="video/mp4">
       </video>
 
 
