@@ -1,7 +1,6 @@
 //这一段是用来插入google analytics的信息的，注意修改G-开头的编号
 
 const script = `
-<link href="docs.css" rel="stylesheet" type="text/css">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1R5D1QM02"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
