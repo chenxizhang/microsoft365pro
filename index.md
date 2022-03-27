@@ -75,3 +75,20 @@ https://365pro.xizhang.com/word.html
 ## Outlook 居然可以这么玩
 https://365pro.xizhang.com/outlook.html
 ![bg fit right:40%](images/outlook-logo-180x180.png)
+
+## OneDrive 居然可以这么玩
+https://365pro.xizhang.com/onedrive.html
+![bg fit right:40%](images/onedrive.png)
+
+## Teams 居然可以这么玩
+https://365pro.xizhang.com/teams.html
+![bg fit right:40%](images/teams.png)
+
+
+## SharePoint 居然可以这么玩
+https://365pro.xizhang.com/sharepoint.html
+![bg fit right:40%](images/sharepoint-logo.png)
+
+## Forms 居然可以这么玩
+https://365pro.xizhang.com/forms.html
+![bg fit right:40%](images/forms-logo.png)
