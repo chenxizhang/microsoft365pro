@@ -63,3 +63,7 @@ https://365pro.xizhang.com/powerpoint.html
 ## Word 居然可以这么玩
 https://365pro.xizhang.com/word.html
 ![bg fit right:40%](images/wordicon.png)
+
+## Outlook 居然可以这么玩
+https://365pro.xizhang.com/outlook.html
+![bg fit right:40%](images/outlook-logo-180x180.png)
