@@ -4,15 +4,30 @@ theme: xizhang
 headingDivider: 3
 paginate: true
 title: Outlook 居然可以这么玩
-footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com/excel.html
+footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com/outlook.html
 ---
 
 # Outlook 居然可以这么玩
 > 陈 希章 https://365pro.xizhang.com
 ![bg fit right:40%](images/outlook-logo-180x180.png)
 
+## 免责声明 & 反馈讨论
 
-## 一步配置Office 365邮箱账号
+> **以下分享为个人经验，不代表官方意见。**
+
+本教程的反馈以及问题讨论，我委托第三方开通了一个企业微信号，将利用业余时间给与解答。
+
+![ft bg right:40% 60%](images/qrcode.jpg)
+
+## Outlook 是做什么的
+<!-- _backgroundColor: azure -->
+
+Outlook 是 Microsoft 365 中的邮件客户端，但还不止于此，它与云端的（Exchange Online）服务配合，为用户提供了邮件、日程、联系人和任务管理等一系列功能。
+
+> 基本用法 https://support.microsoft.com/zh-cn/outlook
+
+
+## 配置Office 365邮箱账号
 
 1. 自动发现，一键配置
 1. 一站式管理邮件、会议、联系人和任务
