@@ -13,6 +13,21 @@ header:
 
 ![bg fit left](images/excel.png)
 
+## 免责声明 & 反馈讨论
+
+> **以下分享为个人经验，不代表官方意见。**
+
+本教程的反馈以及问题讨论，我委托第三方开通了一个企业微信号，将利用业余时间给与解答。
+
+![ft bg right:40% 60%](images/qrcode.jpg)
+
+## Excel 是用来做什么的
+<!-- _backgroundColor: azure -->
+
+Excel 是历史悠久、功能强大的电子表格软件。它可用来存储数据、计算公式，分析和展示数据。它在全世界拥有大量的用户，他（她）们经常以 `表哥` 或 `表姐` 相称，展现出 `天下 Excel 用户是一家` 的美好动人的情景。
+
+> 基本用法 https://support.microsoft.com/zh-cn/office/excel-%E8%A7%86%E9%A2%91%E5%9F%B9%E8%AE%AD-9bc05390-e94c-46af-a5b3-d7c22f6990bb
+
 ## 智能数据分析
 1. 分析数据
 1. 快速填充

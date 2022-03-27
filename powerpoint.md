@@ -11,6 +11,21 @@ footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com/powe
 > 陈 希章 https://365pro.xizhang.com
 ![bg fit right:40%](images/powerpoint.png)
 
+## 免责声明 & 反馈讨论
+
+> **以下分享为个人经验，不代表官方意见。**
+
+本教程的反馈以及问题讨论，我委托第三方开通了一个企业微信号，将利用业余时间给与解答。
+
+![ft bg right:40% 60%](images/qrcode.jpg)
+
+## PowerPoint 是用来做什么的
+<!-- _backgroundColor: azure -->
+
+PowerPoint 是 Microsoft 365 中的演示文稿设计工具，中国用户习惯称之为 `屁屁踢（ppt）`。它经常陪伴着要交论文的同学们或办公室精英们鏖战在`ddl`前月黑风高的晚上（乃至天明），足以证明大家对它的喜爱已经到了难舍难分的境地。
+
+> 基本用法 https://support.microsoft.com/zh-cn/office/powerpoint-for-windows-%E5%9F%B9%E8%AE%AD-40e8c930-cb0b-40d8-82c4-bd53d3398787
+
 ## 自动保存
 
 如果文件保存在OneDrive for Business 或 SharePoint Online，则可以自动拥有这个特性，再也不用担心忘记保存文件了。

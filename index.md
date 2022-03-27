@@ -11,6 +11,14 @@ title: Microsoft 365 高手是怎样炼成的
 
 ![bg fit left](images/microsoft-365.png)
 
+## 免责声明 & 反馈讨论
+
+> **以下分享为个人经验，不代表官方意见。**
+
+本教程的反馈以及问题讨论，我委托第三方开通了一个企业微信号，将利用业余时间给与解答。
+
+![ft bg right:40% 60%](images/qrcode.jpg)
+
 ##  你是不是有这样的困惑
 <!-- footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com -->
 

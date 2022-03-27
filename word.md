@@ -12,6 +12,23 @@ footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com/word
 
 ![bg fit right:40%](images/wordicon.png)
 
+## 免责声明 & 反馈讨论
+
+> **以下分享为个人经验，不代表官方意见。**
+
+本教程的反馈以及问题讨论，我委托第三方开通了一个企业微信号，将利用业余时间给与解答。
+
+![ft bg right:40% 60%](images/qrcode.jpg)
+
+
+## Word 是用来做什么的
+<!-- _backgroundColor: azure -->
+
+
+Word 是 Microsoft 365 中的字处理软件。它的功能强大—— 几乎无所不包 —— 以至于广大的中国用户，经常用 `Word 天啊`或 `Word 妈呀` 这样的感叹词来形容它。
+
+> 基本用法 https://support.microsoft.com/zh-cn/office/word-for-windows-%E5%9F%B9%E8%AE%AD-7bcd85e6-2c3d-4c3c-a2a5-5ed8847eae73
+
 ## Word 也可以玩函数公式
 
 1. 常见函数 
