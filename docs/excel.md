@@ -11,7 +11,7 @@ header:
 # Excel 居然可以这么玩
 > 陈 希章 https://365pro.xizhang.com
 
-![bg fit left](images/excel.png)
+![bg fit right:40%](images/excel.png)
 
 ## 免责声明 & 反馈讨论
 
@@ -73,7 +73,7 @@ Excel 是历史悠久、功能强大的电子表格软件。它可用来存储�
 ![](images/customdatatype.png)
 ![bg fit right](images/productinfo.png)
 
-## 有意思的数组函数
+## 有意思的动态数组函数
 <!-- 所有函数列表 https://support.microsoft.com/zh-cn/office/excel-functions-alphabetical-b3944572-255d-4efb-bb96-c6d90033e188 -->
 
 <!-- 
