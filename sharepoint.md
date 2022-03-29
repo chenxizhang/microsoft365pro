@@ -7,7 +7,7 @@ title: SharePoint 居然可以这么玩
 footer: Microsoft 365的高手是怎样炼成的 https://365pro.xizhang.com/sharepoint.html
 ---
 
-# Teams 居然可以这么玩
+# SharePoint 居然可以这么玩
 > 陈 希章 https://365pro.xizhang.com
 
 ![bg fit right:40%](images/sharepoint-logo.png)
