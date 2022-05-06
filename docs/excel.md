@@ -17,9 +17,6 @@ header:
 
 > **以下分享为个人经验，不代表官方意见。**
 
-本教程的反馈以及问题讨论，我开通了一个企业微信号，将利用业余时间给与解答。
-
-![ft bg right:40% 60%](images/qrcode.jpg)
 
 ## Excel 是用来做什么的
 <!-- _backgroundColor: azure -->
